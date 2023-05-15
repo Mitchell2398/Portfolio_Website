@@ -10,3 +10,5 @@ export default function AboutMePage () {
         </div>
     )
 }
+
+console.log(window.location.pathname)

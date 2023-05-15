@@ -20,7 +20,7 @@ export default function Contact () {
     return (
 <div id="contact">
     <h2>Contact</h2>
-    <div className="contactContainer" id="contact">
+    <div className="contactContainer" >
             
 
     <form>

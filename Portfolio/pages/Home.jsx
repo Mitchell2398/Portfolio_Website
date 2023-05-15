@@ -27,7 +27,7 @@ return (
             />
         <Carousel 
             projectDataProps={projectData}/>
-        <Contact />
+        <Contact  />
     </div>
 )
 }
