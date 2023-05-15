@@ -1,0 +1,28 @@
+
+
+[
+    {
+        "img": "https://res.cloudinary.com/dheko2ynz/image/upload/v1682168914/samples/animals/three-dogs.jpg",
+        "title": "X & O",
+        "description": "A JavaScript Tic Tac Toe game is a web-based game where two players take turns marking a 3x3 grid with X and O symbols."
+    },
+
+    {
+        "img": "https://res.cloudinary.com/dheko2ynz/image/upload/v1682168929/cld-sample.jpg",
+        "title": "Todo app",
+        "description": "A JavaScript todo app allows users to create and manage their to-do list. The app is built using JavaScript / React."
+
+    },
+
+    {
+        "img": "https://res.cloudinary.com/dheko2ynz/image/upload/v1682168916/samples/ecommerce/leather-bag-gray.jpg",
+        "title": "Meme Generator",
+        "description": "A meme generator project in JavaScript is a fun for users to generate and customize their own memes."
+
+    },
+
+    {
+        "aboutMe": "Hello! I'm Jack, an aspiring front end developer with a passion for creating beautiful, user-friendly web experiences. With a strong foundation in HTML, CSS, and JavaScript, I am eager to learn and grow as a developer while staying up to date with the latest front end technologies and best practices.\nI am highly motivated, detail-oriented, and committed to delivering high-quality work that meets the needs of clients."
+    }
+    
+]
