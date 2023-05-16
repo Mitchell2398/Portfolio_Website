@@ -1,0 +1,33 @@
+{
+    "name": "Jack Mitchell",
+    "tagline": "Experienced digital marketing analyst in activities including website development, media buying, social media management, SEO, and email marketing.",
+    "email": "jackmitchell2398@gmail.com",
+    "phone": "087 2947 625",
+    "address": "Monaghan Ireland",
+    "website": "TBD.com",
+    "summary": "I am passionate about driving sales in digital marketing and have gained nearly 2 years’ experience working with an international specialist consultancy and ESG led investment start-up. I am confident that my abilities, strong work ethic, and problem-solving approach will support your digital marketing team to achieve their targets.",
+    "education": [
+      {
+        "institution": "NUI Galway",
+        "area": "Commerce Global",
+        "studyType": "Bachelor",
+        "startDate": "2020-09",
+        "endDate": "2024-06",
+        "gpa": "1:1",
+        "courses": [
+          "Business Analytics",
+          "Marketing",
+          "Consumer Behaviour"
+        ]
+      }
+    ],
+
+    "skills": [
+      {
+        "s1": "Video Editing",
+        "s2": "Media Buying",
+        "s3": "Graphic Design",
+        "s4": "Leadership Skills"
+      }
+        ]
+      }
