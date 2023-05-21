@@ -9,7 +9,7 @@
 
     {
         "img": "https://res.cloudinary.com/dheko2ynz/image/upload/v1682168929/cld-sample.jpg",
-        "title": "Todo app",
+        "title": "Flappy Bird",
         "description": "A JavaScript todo app allows users to create and manage their to-do list. The app is built using JavaScript / React."
 
     },

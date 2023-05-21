@@ -5,7 +5,7 @@ export default function AboutMePage() {
   const [aboutMePageData, setAboutMePageData] = React.useState({});
 
   React.useEffect(() => {
-    fetch("aboutMePageData.json")
+    fetch("/project-data/aboutMePageData.json")
       .then((response) => response.json())
       .then((data) => setAboutMePageData(data));
   }, []);

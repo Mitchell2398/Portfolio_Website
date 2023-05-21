@@ -10,7 +10,7 @@ export default function Home () {
 
 
     React.useEffect(() => {
-    fetch("projectData.json")
+    fetch("/project-data/projectData.json")
     .then(response => response.json())
     .then(data => setProjectData(data))
     }, [])

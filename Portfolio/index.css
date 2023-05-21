@@ -250,3 +250,119 @@ button[type="submit"]:hover {
 .aboutMePageTitle {
   padding-top: 120px;
 }
+
+/* Projects page */
+
+/* Project template css */
+
+.projectsPageContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 0px; 
+}
+
+.projectsGridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr)); /* Adjust the column sizing */
+  grid-gap: 40px;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+  justify-items: center;
+}
+
+.projectTempContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 40px;
+}
+
+.projectTempImg {
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
+  max-width: 240px;
+}
+
+h1.projectPageTitle {
+  margin-top: 120px; /* Add margin to push it down below the header */
+  align-self: flex-start;
+}
+
+/* Individual project page css */
+
+.indivProjContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.indivFlexContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 40px;
+
+}
+
+.indivProjImg {
+  width: 50%;
+  height: auto;
+  padding-top: 120px;
+  border-radius: 10px;
+}
+
+
+
+.indivProjTitle {
+  margin-bottom: 10px;
+  text-align: left;
+ 
+  
+}
+
+.indivProjDescription {
+  margin-bottom: 20px;
+  text-align: left;
+  
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+
+}
+
+.indivProjButtons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 0px;
+  padding: 40px;
+}
+
+.indivProjBtn1,
+.indivProjBtn2 {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.indivProjBtn1:hover,
+.indivProjBtn2:hover {
+  background-color: #0056b3;
+}
+
