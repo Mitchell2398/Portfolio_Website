@@ -2,9 +2,6 @@ import React, { useEffect } from "react";
 import {  Link  } from 'react-router-dom';
 import { Link as SmoothLink } from 'react-scroll';
 
-
-
-
 export default function Header () {
 // Allows me to use smooth scrolling & react router for Contact section
 

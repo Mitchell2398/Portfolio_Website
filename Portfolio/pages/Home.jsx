@@ -7,6 +7,7 @@ import Contact from "../components/Contact";
 
 export default function Home () {
     const [projectData, setProjectData] = React.useState([])
+    const [aboutMeHp, setAboutMeHp] = React.useState({})
 
 
     React.useEffect(() => {
@@ -15,15 +16,18 @@ export default function Home () {
     .then(data => setProjectData(data))
     }, [])
 
-    const renderAboutMe = projectData.map(data => (
-        data.aboutMe
-    ))
+    React.useEffect(() => {
+        fetch("/project-data/aboutMeHp.json")
+        .then(response => response.json())
+        .then(data => setAboutMeHp(data))
+        }, [])
+
 
 return (
     <div>
         <Header />
         <AboutMe
-            aboutMe={renderAboutMe} 
+            aboutMe={aboutMeHp.aboutMe} 
             />
         <Carousel 
             projectDataProps={projectData}/>

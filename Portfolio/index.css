@@ -14,7 +14,9 @@
     font-family: "MyFont";
     margin: 0px;
     padding: 0px;
-    background-color: whitesmoke;
+    background-color: #F4F2F3;
+    overflow-x: hidden;
+    
   }
 
   h1, h2, h3 {
@@ -29,19 +31,24 @@
 
   li {
     font-family: "MyFont";
-    color: black;
+    color: #272932;
     text-decoration: none;
-    cursor: pointer;
     padding: 0px 5px;
   }
 
-  .RouterLink, .SmoothLink {
+  .RouterLink, .SmoothLink, a {
     font-family: "MyFont";
-    color: black;
+    color: #272932;
     text-decoration: none;
     cursor: pointer;
     text-emphasis: none;
   }
+
+  .RouterLink:hover,
+  .SmoothLink:hover,
+  a:hover {
+  text-decoration: underline;
+}
 
   /* Components  */
   
@@ -53,7 +60,7 @@
   align-items: center;
   height: 100px;
   width: 100%;
-  background-color: #fff;
+  background-color: whitesmoke;
   box-shadow:  0px 2px 4px rgba(0, 0, 0, 0.25) ;
 }
 
@@ -76,21 +83,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+ 
   
 }
 
 .aboutMeTitle {
   align-self: flex-start;
-  padding-top: 120px;
+  margin-top: 120px;
 }
 
 .aboutMeIntro {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 70%; 
+  justify-content: center;
   margin-top: 30px;
- 
+  
 }
 
 .profileImage {
@@ -98,18 +106,25 @@
   height: auto;
   border-radius: 50%;
   margin-right: 20px; 
+ 
 
+}
+
+.aboutMeText {
+  width: 50%; 
+ 
 }
 
 
 .techStack {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 70%; 
+  justify-content: space-evenly;
+  width: 80%; 
   list-style: none;
   margin-top: 60px;
   margin-bottom: 60px;
+ 
   
   
 }
@@ -119,6 +134,51 @@
   max-width: 50px;
 }
 
+.aboutMeBtnContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 40%;
+ 
+}
+
+.aboutMeBtn1,
+.aboutMeBtn2 {
+  background-color: #F05D5E;
+  color: #fff;
+  height: 50px;
+  width: 85px;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.aboutMeBtn1 {
+  background-color: #F05D5E;
+  color: #fff;
+}
+
+.aboutMeBtn2 {
+  background-color:#fff;
+  color: #F05D5E;
+  border: 1px solid #F05D5E;
+}
+
+
+.aboutMeBtn1:hover,
+.aboutMeBtn2:hover {
+  background-color: #ce5151;
+}
+
+@media (max-width: 768px) {
+  /* Adjust flex container and items for screens wider than 768px */
+  .aboutMeIntro {
+    flex-direction: column;
+  
+  }
+}
 /* Project */
 
 
@@ -135,9 +195,9 @@
 .flexContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  width: 70%;
+  width: 80%;
   
 }
 
@@ -150,7 +210,8 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px 20px;
+  padding: 5px 5px;
+  border-radius: 20px;
 
 }
 
@@ -164,78 +225,84 @@
   width: 220px;
   padding: 0px;
   margin: 0px;
-
-
 }
+  
+  
+  #carouselBtn {
+    background-color: #F05D5E;
+    color: white;
+    height: 50px;
+    width: 85px;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+  
+  @media (max-width: 768px) {
+    /* Adjust flex container and items for screens wider than 768px */
+    .flexContainer {
+      flex-direction: column;
+    
+    }
+
+    .projectContainer {
+      margin-bottom: 40px;
+    }
+  }
+
+
 
 /* Contact */
 
 .contactContainer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+  
 }
 
-form {
-  width: 800px;
-  margin-bottom: 60px;
-  padding: 2rem;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  background-color: #fff;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.2s ease-in-out;
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  padding: 20px ;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+
+}
+
+.contactSubtitle {
+  margin: 0px
 }
 
 
-label {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: bold;
-  color: #333;
+.socialItemContainer {
+  display: flex;
+  flex-direction: row;
+ 
+
+  
 }
 
-input,
-textarea {
-  display: block;
-  font-family: "MyFont";
-  border-radius: 10px;
-  width: 100%;
-  padding: 0.5rem;
-  margin-bottom: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  background-color: #f5f5f5;
-  font-size: 1rem;
-  line-height: 1.5;
-  color: #333;
+.contactIcons {
+  height: 30px;
+  width: auto;
+  padding-right: 25px;
+  
 }
 
-input:focus,
-textarea:focus {
-  border-color: #0077ff;
-  box-shadow: 0 0 0 2px rgba(0, 119, 255, 0.2);
-  outline: none;
+.heroImg {
+  max-width: 300px;
+  height: auto
 }
-
-button[type="submit"] {
-  display: block;
-  margin: 1rem auto 0;
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 3px;
-  background-color: #0077ff;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
-}
-
-button[type="submit"]:hover {
-  background-color: #0055cc;
-}
+  
 
 /* Pages */
 
@@ -245,11 +312,14 @@ button[type="submit"]:hover {
   padding-top: 0px;
   margin-top: 0px;
   width: 50%;
+  margin: 20px;
 }
 
 .aboutMePageTitle {
   padding-top: 120px;
 }
+
+
 
 /* Projects page */
 
@@ -288,9 +358,17 @@ button[type="submit"]:hover {
   max-width: 240px;
 }
 
+.projectTemplateTitle, a.projectTemplateTitle {
+    font-family: "MyFont";
+    color: #272932;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 h1.projectPageTitle {
   margin-top: 120px; /* Add margin to push it down below the header */
   align-self: flex-start;
+
 }
 
 /* Individual project page css */
@@ -338,7 +416,7 @@ h1.projectPageTitle {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-bottom: 50px;
+  margin-bottom: 40px;
 
 }
 
@@ -352,7 +430,7 @@ h1.projectPageTitle {
 
 .indivProjBtn1,
 .indivProjBtn2 {
-  background-color: #007bff;
+  background-color: #F05D5E;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -363,6 +441,6 @@ h1.projectPageTitle {
 
 .indivProjBtn1:hover,
 .indivProjBtn2:hover {
-  background-color: #0056b3;
+  background-color: #be4a4a;
 }
 

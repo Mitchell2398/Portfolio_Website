@@ -1,6 +1,7 @@
 import React from "react"
 import Project from "./Project"
 import { v4 as uuidv4 } from 'uuid';
+import { Link } from "react-router-dom";
 
 export default function Carousel (props) {
 
@@ -20,7 +21,9 @@ export default function Carousel (props) {
      <div className="flexContainer">
        
         {renderProject}
+        
      </div>
+     <button id="carouselBtn"><Link id="carouselBtn" to="/projectspage">View all</Link></button>
     </div>
    
     )
