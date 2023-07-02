@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "/components/Header";
+import Hero from "../components/Hero";
 import AboutMe from "../components/AboutMe";
-import Carousel from "../components/Carousel";
+import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 
 
@@ -26,11 +27,12 @@ export default function Home () {
 return (
     <div>
         <Header />
+        <Hero />
         <AboutMe
             aboutMe={aboutMeHp.aboutMe} 
             />
-        <Carousel 
-            projectDataProps={projectData}/>
+        <Projects 
+            projectData={projectData}/>
         <Contact  />
     </div>
 )

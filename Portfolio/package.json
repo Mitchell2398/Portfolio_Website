@@ -11,8 +11,11 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-responsive": "^9.0.2",
     "react-router-dom": "^6.11.1",
     "react-scroll": "^1.8.9",
+    "react-svg": "^16.1.18",
+    "typewriter-effect": "^2.20.1",
     "uuid": "^9.0.0"
   },
   "devDependencies": {

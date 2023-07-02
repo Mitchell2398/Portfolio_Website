@@ -2,22 +2,25 @@
 
 [
     {
-        "img": "https://res.cloudinary.com/dheko2ynz/image/upload/v1682168914/samples/animals/three-dogs.jpg",
+        "gridArea": "item-1",
+        "img": "https://res.cloudinary.com/dheko2ynz/image/upload/v1688317699/making-a-tic-tac-toe-game-in-vue-js-tutorial_taszdr.png",
         "title": "X & O",
-        "description": "A JavaScript Tic Tac Toe game is a web-based game where two players take turns marking a 3x3 grid with X and O symbols."
+        "subtitle": "Match 3 X's or O's to win "
     },
 
     {
-        "img": "https://res.cloudinary.com/dheko2ynz/image/upload/v1682168929/cld-sample.jpg",
+        "gridArea": "item-2",
+        "img": "https://res.cloudinary.com/dheko2ynz/image/upload/v1688317661/flappy-birds_ncn4si.webp",
         "title": "Flappy Bird",
-        "description": "A JavaScript todo app allows users to create and manage their to-do list. The app is built using JavaScript / React."
+        "subtitle": "Guide the bird through the pipes testing to see if i can break this lol lo lo l o l o l o l o lo"
 
     },
 
     {
-        "img": "https://res.cloudinary.com/dheko2ynz/image/upload/v1682168916/samples/ecommerce/leather-bag-gray.jpg",
+        "gridArea": "item-3",
+        "img": "https://res.cloudinary.com/dheko2ynz/image/upload/v1688317721/ljtrzb6dnc7am2pzgm3a_fuydkr.gif",
         "title": "Meme Generator",
-        "description": "A meme generator project in JavaScript is a fun for users to generate and customize their own memes."
+        "subtitle": "Discover a new meme combination"
 
     }
     
