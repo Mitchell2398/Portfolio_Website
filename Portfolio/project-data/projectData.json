@@ -3,24 +3,65 @@
 [
     {
         "gridArea": "item-1",
+        "id": 1,
         "img": "https://res.cloudinary.com/dheko2ynz/image/upload/v1688317699/making-a-tic-tac-toe-game-in-vue-js-tutorial_taszdr.png",
         "title": "X & O",
-        "subtitle": "Match 3 X's or O's to win "
+        "subtitle": "Match 3 X's or O's to win ",
+        "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida risus ac neque sollicitudin, at pulvinar metus hendrerit. Vivamus tincidunt sem vel faucibus fermentum. Nullam volutpat felis.",
+        "tech": ["Html", "Css", "JavaScript"],
+        "liveDemo": "www.jacksportfolio.io/project",
+        "github": "https://github.com/Mitchell2398"
+            
     },
 
     {
         "gridArea": "item-2",
+        "id": 2,
         "img": "https://res.cloudinary.com/dheko2ynz/image/upload/v1688317661/flappy-birds_ncn4si.webp",
         "title": "Flappy Bird",
-        "subtitle": "Guide the bird through the pipes testing to see if i can break this lol lo lo l o l o l o l o lo"
-
+        "subtitle": "Guide the bird through the pipes ",
+        "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida risus ac neque sollicitudin, at pulvinar metus hendrerit. Vivamus tincidunt sem vel faucibus fermentum. Nullam volutpat felis.",
+        "tech": ["Html", "Css", "JavaScript", "React"],
+        "liveDemo": "www.jacksportfolio.io/project",
+        "github": "https://github.com/Mitchell2398"
     },
 
     {
         "gridArea": "item-3",
+        "id": 3,
         "img": "https://res.cloudinary.com/dheko2ynz/image/upload/v1688317721/ljtrzb6dnc7am2pzgm3a_fuydkr.gif",
         "title": "Meme Generator",
-        "subtitle": "Discover a new meme combination"
+        "subtitle": "Discover a new meme combination",
+        "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida risus ac neque sollicitudin, at pulvinar metus hendrerit. Vivamus tincidunt sem vel faucibus fermentum. Nullam volutpat felis.",
+        "tech": ["Html", "Css", "JavaScript"],
+        "liveDemo": "www.jacksportfolio.io/project",
+        "github": "https://github.com/Mitchell2398"
+        
+    },
+
+    {
+        "gridArea": "item-4",
+        "id": 4,
+        "img": "https://res.cloudinary.com/dheko2ynz/image/upload/v1688333205/57a17580-8e27-11eb-9603-cf800abf5983_ktqwwj.png",
+        "title": "Expense Tracker",
+        "subtitle": "Keep track of your budget",
+        "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida risus ac neque sollicitudin, at pulvinar metus hendrerit. Vivamus tincidunt sem vel faucibus fermentum. Nullam volutpat felis.",
+        "tech": ["Html", "Css", "JavaScript", "React"],
+        "liveDemo": "www.jacksportfolio.io/project",
+        "github": "https://github.com/Mitchell2398"
+
+    },
+
+    {
+        "gridArea": "item-5",
+        "id": 5,
+        "img": "https://res.cloudinary.com/dheko2ynz/image/upload/v1688333054/WiTsrq4_clpsuy.jpg",
+        "title": "Rock, Paper, Scissors",
+        "subtitle": "A game of luck",
+        "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida risus ac neque sollicitudin, at pulvinar metus hendrerit. Vivamus tincidunt sem vel faucibus fermentum. Nullam volutpat felis.",
+        "tech": ["Html", "Css", "JavaScript", "React"],
+        "liveDemo": "www.jacksportfolio.io/project",
+        "github": "https://github.com/Mitchell2398"
 
     }
     

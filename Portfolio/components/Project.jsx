@@ -1,21 +1,14 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { useMediaQuery } from 'react-responsive';
 
 export default function Project(props) {
-  const [hoverEffect, setHoverEffect] = React.useState(false);
+  const isSmallScreen = useMediaQuery({ maxWidth: 950 });
 
-  const handleMouseOver = () => {
-    setHoverEffect(true);
-  };
-
-  const handleMouseOut = () => {
-    setHoverEffect(false);
-  };
 
   return (
     <div
       className={`image-container ${props.gridArea}`}
-      onMouseOver={handleMouseOver}
-      onMouseOut={handleMouseOut}
+      onClick={props.handleClick}
     >
       <img
         className="projectImg"
@@ -23,21 +16,29 @@ export default function Project(props) {
         alt="Background"
       />
 
-      {hoverEffect && (
-        <div className="imgOverlay" />
-      )}
+   
+        <div 
+          className="imgOverlay"
+          style={{opacity : isSmallScreen && 1}}
+           />
+    
 
-      {hoverEffect && (
-        <div className="overlayContainer">
+    
+        <div 
+        className="overlayContainer"
+        style={{opacity : isSmallScreen && 1}}
+        >
           <h2 className="projectTitle">{props.title}</h2>
           <p className="projectSubtitle">{props.subtitle}</p>
           <div className="tagContainer">
-            <div className="tag">React</div>
-            <div className="tag">Javascript</div>
-            <div className="tag">CSS</div>
+            {props.tech.map((tech) => (
+              <div className="tag" key={tech}>
+                {tech}
+              </div>
+            ))}
           </div>
         </div>
-      )}
+     
     </div>
   );
 }

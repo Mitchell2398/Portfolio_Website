@@ -54,7 +54,7 @@ useEffect(() => {
     return (
         <div className="headerBackground" 
         style={{
-          backgroundColor: headerColour ? 'transparent' : "whitesmoke",
+          backgroundColor: headerColour ? 'transparent' : "white",
           boxShadow: headerColour ? "none" : "0px 2px 4px rgba(0, 0, 0, 0.25)"
         }}
         >
@@ -90,7 +90,7 @@ useEffect(() => {
                     className="SmoothLink"     
                     smooth={true}       
                     duration={500}       
-                    offset={-100}        
+                    offset={15}        
                     activeClass="active"
                     style={{color : headerColour ? 'white' : 'black'}}>
                     About Me
@@ -101,7 +101,7 @@ useEffect(() => {
                     className="SmoothLink"     
                     smooth={true}       
                     duration={500}       
-                    offset={-120}        
+                    offset={-175}        
                     activeClass="active"
                     style={{color : headerColour ? 'white' : 'black'}}>
                     Projects

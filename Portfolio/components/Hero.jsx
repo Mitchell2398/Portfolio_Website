@@ -37,7 +37,7 @@ export default function Hero() {
                         to="aboutMe"    
                         smooth={true}       
                         duration={500}       
-                        offset={-100}        
+                        offset={15}        
                         activeClass="active">
                           <a type='button' className="btn">
                             About me
