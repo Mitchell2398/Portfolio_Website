@@ -3,7 +3,6 @@ import Project from "./Project";
 import ProjectPopUp from "./ProjectPopUp";
 import { v4 as uuidv4 } from "uuid";
 
-
 export default function Projects(props) {
   const [enablePu, setEnablePu] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
@@ -26,9 +25,6 @@ export default function Projects(props) {
     }
   }, [enablePu]);
 
-  
-
-
   const renderProjects = props.projectData.map((project) => {
     return (
       <Project
@@ -46,16 +42,13 @@ export default function Projects(props) {
   });
 
   return (
-    <div 
-      className="projectsWrapper"
-     >
+    <div className="projectsWrapper">
       <h1 className="projectsTitle">Projects.</h1>
       <div className="projectsContainer" id="projects">
         {renderProjects}
       </div>
 
-      <div className={`darkOverlay ${enablePu ? 'active' : ''}`} />
-
+      <div className={`darkOverlay ${enablePu ? "active" : ""}`} />
 
       {enablePu && (
         <ProjectPopUp
