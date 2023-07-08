@@ -1,11 +1,5 @@
 /* General styling */
 
-@font-face {
-  font-family: "MyFont";
-  src: url("C:/Users/Jack Mitchell/Desktop/Coding/Portfolio_Website/Portfolio/assets/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf")
-    format("truetype");
-}
-
 header {
   margin: 0px;
   padding: 0px;
@@ -13,7 +7,7 @@ header {
 }
 
 body {
-  font-family: "MyFont";
+  font-family: "Roboto";
   margin: 0px;
   padding: 0px;
   background-color: white;
@@ -37,7 +31,7 @@ p {
 }
 
 li {
-  font-family: "MyFont";
+  font-family: "Roboto";
   color: #272932;
   text-decoration: none;
   padding: 0px 5px;
@@ -46,7 +40,7 @@ li {
 .RouterLink,
 .SmoothLink,
 a {
-  font-family: "MyFont";
+  font-family: "Roboto";
   color: #fff;
   text-decoration: none;
   cursor: pointer;
@@ -888,7 +882,7 @@ input {
   outline: none;
   border-radius: 5px;
   border: 1px solid #054d80;
-  font-family: "myFont";
+  font-family: "Roboto";
   margin-bottom: 10px;
 }
 
@@ -903,7 +897,7 @@ textarea {
   outline: none;
   border-radius: 5px;
   border: 1px solid #054d80;
-  font-family: "myFont";
+  font-family: "Roboto";
 }
 
 textarea:focus {
@@ -912,7 +906,7 @@ textarea:focus {
 
 label {
   margin-top: 1rem;
-  font-family: "myFont";
+  font-family: "Roboto";
 }
 
 .contactButton {
@@ -920,7 +914,7 @@ label {
   padding: 15px 45px;
   background-color: #e64a6c;
   color: white;
-  font-family: "myFont";
+  font-family: "Roboto";
   letter-spacing: 1px;
   text-decoration: none;
   margin-top: 25px;
