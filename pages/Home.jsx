@@ -10,13 +10,13 @@ export default function Home() {
   const [aboutMeHp, setAboutMeHp] = React.useState({});
 
   React.useEffect(() => {
-    fetch("/project-data/projectData.json")
+    fetch("project-data/projectData.json")
       .then((response) => response.json())
       .then((data) => setProjectData(data));
   }, []);
 
   React.useEffect(() => {
-    fetch("/project-data/aboutMeHp.json")
+    fetch("project-data/aboutMeHp.json")
       .then((response) => response.json())
       .then((data) => setAboutMeHp(data));
   }, []);
