@@ -1,15 +1,16 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config
-
-export default defineConfig(({ command }) => {
+export default defineConfig(() => {
   const config = {
-    base: "/Portfolio_Website",
+    base: `/Portfolio_Website/`,
     plugins: [react()],
-  }
+    esbuild: {
+      jsxFactory: "React.createElement",
+      jsxFragment: "React.Fragment",
+    },
+  };
 
-
-
-  return config
-})
+  return config;
+});
