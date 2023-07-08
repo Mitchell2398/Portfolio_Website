@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Project from "/components/Project.jsx";
 import ProjectPopUp from "/components/ProjectPopUp.jsx";
-import { v4 as uuidv4 } from "uuid";
+// import { v4 as uuidv4 } from "uuid";
 
 export default function Projects(props) {
   const [enablePu, setEnablePu] = useState(false);
