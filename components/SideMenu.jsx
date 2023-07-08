@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { Link as SmoothLink } from "react-scroll";
 
 
@@ -20,13 +19,17 @@ export default function SideMenu (props) {
     <div className={`sideMenuContainer ${props.isSideMenuClicked ? "active" : ""}`}>
     <ul className="sideMenuUl">
     <li>
-      <Link
+      <SmoothLink
         className="RouterLinkSideMenu"
         to="/"
         onClick={scrollToTop}
+        smooth={true}
+        duration={500}
+        offset={15}
+        activeClass="active"
       >
         Home
-      </Link>
+      </SmoothLink>
     </li>
 
     <li>

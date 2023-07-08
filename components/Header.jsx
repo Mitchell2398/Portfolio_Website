@@ -6,9 +6,8 @@ import { useMediaQuery } from "react-responsive";
 export default function Header() {
   const [headerColour, setHeaderColour] = React.useState(true);
   const [trackScroll, setTrackScroll] = React.useState(0);
-  const [isSideMenuClicked, setIsSideMenuClicked] = React.useState(false)
+  const [isSideMenuClicked, setIsSideMenuClicked] = React.useState(false);
   const isSmallScreen = useMediaQuery({ maxWidth: 768 });
-
 
   // Adjust header css
   useEffect(() => {
@@ -25,7 +24,6 @@ export default function Header() {
     return () => window.removeEventListener("scroll", changeHeader);
   }, [trackScroll]);
 
-
   function scrollToTop() {
     if (window.location.pathname === "/") {
       window.scrollTo({
@@ -33,18 +31,17 @@ export default function Header() {
         left: 0,
         behavior: "smooth",
       });
-      
     }
   }
 
-  // Side Menu 
+  // Side Menu
 
-  function activateSideMenu () {
-    setIsSideMenuClicked(true)
+  function activateSideMenu() {
+    setIsSideMenuClicked(true);
   }
 
-  function deactivateSideMenu () {
-    setIsSideMenuClicked(false)
+  function deactivateSideMenu() {
+    setIsSideMenuClicked(false);
   }
 
   return (
@@ -108,68 +105,75 @@ export default function Header() {
       )}
 
       {!isSmallScreen ? (
+        <ul className="headerList">
+          <li>
+            <SmoothLink
+              className="RouterLink"
+              to="/"
+              onClick={scrollToTop}
+              smooth={true}
+              duration={500}
+              offset={15}
+              activeClass="active"
+              style={{ color: headerColour ? "white" : "black" }}
+            >
+              Home
+            </SmoothLink>
+          </li>
 
-      <ul className="headerList">
-        <li>
-          <SmoothLink
-            className="RouterLink"
-            to="/"
-            onClick={scrollToTop}
-            style={{ color: headerColour ? "white" : "black" }}
-          >
-            Home
-          </SmoothLink>
-        </li>
+          <li>
+            <SmoothLink
+              to="aboutMe"
+              className="SmoothLink"
+              smooth={true}
+              duration={500}
+              offset={15}
+              activeClass="active"
+              style={{ color: headerColour ? "white" : "black" }}
+            >
+              About Me
+            </SmoothLink>
+          </li>
 
-        <li>
+          <li>
+            <SmoothLink
+              to="projects"
+              className="SmoothLink"
+              smooth={true}
+              duration={500}
+              offset={-175}
+              activeClass="active"
+              style={{ color: headerColour ? "white" : "black" }}
+            >
+              Projects
+            </SmoothLink>
+          </li>
+
           <SmoothLink
-            to="aboutMe"
+            to="contact"
             className="SmoothLink"
             smooth={true}
             duration={500}
-            offset={15}
+            offset={-70}
             activeClass="active"
             style={{ color: headerColour ? "white" : "black" }}
           >
-            About Me
+            Contact
           </SmoothLink>
-        </li>
-
-        <li>
-          <SmoothLink
-            to="projects"
-            className="SmoothLink"
-            smooth={true}
-            duration={500}
-            offset={-175}
-            activeClass="active"
-            style={{ color: headerColour ? "white" : "black" }}
-          >
-            Projects
-          </SmoothLink>
-        </li>
-
-        <SmoothLink
-          to="contact"
-          className="SmoothLink"
-          smooth={true}
-          duration={500}
-          offset={-70}
-          activeClass="active"
-          style={{ color: headerColour ? "white" : "black" }}
-        >
-          Contact
-        </SmoothLink>
-      </ul>
+        </ul>
       ) : (
-        <img 
-        src={headerColour ? "https://res.cloudinary.com/dheko2ynz/image/upload/v1688845527/Icons_SVG/meunuIconWhite_copy_eowgcz.svg" : "https://res.cloudinary.com/dheko2ynz/image/upload/v1688845525/Icons_SVG/meunuIconBlack_ksjdbk.svg"}
-        className="sideMenu"
-        onClick={activateSideMenu}/>
+        <img
+          src={
+            headerColour
+              ? "https://res.cloudinary.com/dheko2ynz/image/upload/v1688845527/Icons_SVG/meunuIconWhite_copy_eowgcz.svg"
+              : "https://res.cloudinary.com/dheko2ynz/image/upload/v1688845525/Icons_SVG/meunuIconBlack_ksjdbk.svg"
+          }
+          className="sideMenu"
+          onClick={activateSideMenu}
+        />
       )}
 
-    {isSideMenuClicked && <SideMenu handleClick={deactivateSideMenu} />}
-
+      {isSideMenuClicked && <SideMenu handleClick={deactivateSideMenu} />}
     </div>
   );
 }

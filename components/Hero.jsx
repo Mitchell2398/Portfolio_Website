@@ -7,7 +7,7 @@ export default function Hero() {
   const isSmallScreen = useMediaQuery({ maxWidth: 768 });
 
   return (
-    <section className="hero">
+    <section className="hero" id="/">
       <div className="hero-area">
         <div className="hero-text">
           <div className="heroH1">
