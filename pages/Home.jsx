@@ -2,8 +2,8 @@ import React from "react";
 import Header from "/components/Header.jsx";
 import Hero from "/components/Hero.jsx";
 import AboutMe from "/components/AboutMe.jsx";
-import Projects from "/components/Projects";
-import Connect from "/components/Connect";
+import Projects from "/components/Projects.jsx";
+import Connect from "/components/Connect.jsx";
 
 export default function Home() {
   const [projectData, setProjectData] = React.useState([]);
