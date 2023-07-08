@@ -5,7 +5,7 @@ export default function AboutMe(props) {
     <div className="aboutMeWrapper" id="aboutMe">
       <div className="aboutMeContainer">
         <div className="aboutMeIntro">
-          <img className="doodle" src="assets/Icons_SVG/doodle.svg" />
+          <img className="doodle" src="https://res.cloudinary.com/dheko2ynz/image/upload/v1688317721/ljtrzb6dnc7am2pzgm3a_fuydkr.gif" />
 
           <div className="aboutMeTextWrapper">
             <h1 className="aboutMeTitle">About me.</h1>
