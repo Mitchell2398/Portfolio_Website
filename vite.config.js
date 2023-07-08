@@ -5,12 +5,12 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig(({ command }) => {
   const config = {
-    base: "/Portfolio_Website",
+    base: "/jackmitchllsportfolio/",
     plugins: [react()],
     esbuild: {
       jsxFactory: 'React.createElement',
       jsxFragment: 'React.Fragment',
-    }
+    },
   }
 
 
