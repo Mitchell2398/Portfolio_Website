@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Link as SmoothLink } from "react-scroll";
-import SideMenu from "./SideMenu";
+import SideMenu from "/components/SideMenu.jsx";
 import { useMediaQuery } from "react-responsive";
 
 export default function Header() {

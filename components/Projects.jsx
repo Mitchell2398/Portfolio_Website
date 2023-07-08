@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Project from "./Project";
-import ProjectPopUp from "./ProjectPopUp";
+import Project from "/components/Project.jsx";
+import ProjectPopUp from "/components/ProjectPopUp.jsx";
 import { v4 as uuidv4 } from "uuid";
 
 export default function Projects(props) {
