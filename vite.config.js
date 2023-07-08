@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig(({ command }) => {
   const config = {
-    base: "/",
+    base: "/Portfolio_Website/",
     plugins: [react()],
   }
 
