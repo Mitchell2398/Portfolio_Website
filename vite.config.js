@@ -7,7 +7,7 @@ export default defineConfig(({ command }) => {
   const config = {
     base: "/Portfolio_Website",
     plugins: [react()],
-    jsx: "react",
+ 
   }
 
 
