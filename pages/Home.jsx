@@ -13,13 +13,13 @@ export default function Home() {
     fetch("https://res.cloudinary.com/dheko2ynz/raw/upload/v1688845758/project-data/projectData_im1gsv.json")
       .then((response) => response.json())
       .then((data) => setProjectData(data));
-  }, []);
 
-  React.useEffect(() => {
-    fetch("https://res.cloudinary.com/dheko2ynz/raw/upload/v1688845758/project-data/aboutMeHp_o44ffv.json")
+      fetch("https://res.cloudinary.com/dheko2ynz/raw/upload/v1688845758/project-data/aboutMeHp_o44ffv.json")
       .then((response) => response.json())
       .then((data) => setAboutMeHp(data));
+      
   }, []);
+
 
   return (
     <div>
