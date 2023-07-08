@@ -5,7 +5,7 @@ export default function AboutMe(props) {
     <div className="aboutMeWrapper" id="aboutMe">
       <div className="aboutMeContainer">
         <div className="aboutMeIntro">
-          <img className="doodle" src="https://res.cloudinary.com/dheko2ynz/image/upload/v1688317721/ljtrzb6dnc7am2pzgm3a_fuydkr.gif" />
+          <img className="doodle" src="https://res.cloudinary.com/dheko2ynz/image/upload/v1688845526/Icons_SVG/doodle_bi3mtk.svg" />
 
           <div className="aboutMeTextWrapper">
             <h1 className="aboutMeTitle">About me.</h1>
@@ -16,20 +16,20 @@ export default function AboutMe(props) {
         <div className="techStack">
           <img
             className="icon"
-            src="./assets/Icons_SVG/html-124-svgrepo-com.svg"
+            src="https://res.cloudinary.com/dheko2ynz/image/upload/v1688845525/Icons_SVG/html-124-svgrepo-com_u02ve1.svg"
           />
           <img
             className="icon"
-            src="./assets/Icons_SVG/css3-02-svgrepo-com.svg"
+            src="https://res.cloudinary.com/dheko2ynz/image/upload/v1688845525/Icons_SVG/css3-02-svgrepo-com_ix35tb.svg"
           />
-          <img className="icon" src="./assets/Icons_SVG/js01-svgrepo-com.svg" />
+          <img className="icon" src="https://res.cloudinary.com/dheko2ynz/image/upload/v1688845525/Icons_SVG/js01-svgrepo-com_wtlu0h.svg" />
           <img
             className="icon"
-            src="./assets/Icons_SVG/react-svgrepo-com.svg"
+            src="https://res.cloudinary.com/dheko2ynz/image/upload/v1688845527/Icons_SVG/react-svgrepo-com_fjodmm.svg"
           />
           <img
             className="icon"
-            src="./assets/Icons_SVG/github-square-svgrepo-com.svg"
+            src="https://res.cloudinary.com/dheko2ynz/image/upload/v1688845525/Icons_SVG/github-square-svgrepo-com_thj0z0.svg"
           />
         </div>
 

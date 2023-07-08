@@ -163,7 +163,7 @@ export default function Header() {
       </ul>
       ) : (
         <img 
-        src={headerColour ? "assets/Icons_SVG/meunuIconWhite copy.svg" : "assets/Icons_SVG/meunuIconBlack.svg"}
+        src={headerColour ? "https://res.cloudinary.com/dheko2ynz/image/upload/v1688845527/Icons_SVG/meunuIconWhite_copy_eowgcz.svg" : "https://res.cloudinary.com/dheko2ynz/image/upload/v1688845525/Icons_SVG/meunuIconBlack_ksjdbk.svg"}
         className="sideMenu"
         onClick={activateSideMenu}/>
       )}

@@ -10,13 +10,13 @@ export default function Home() {
   const [aboutMeHp, setAboutMeHp] = React.useState({});
 
   React.useEffect(() => {
-    fetch("project-data/projectData.json")
+    fetch("https://res.cloudinary.com/dheko2ynz/raw/upload/v1688845758/project-data/projectData_im1gsv.json")
       .then((response) => response.json())
       .then((data) => setProjectData(data));
   }, []);
 
   React.useEffect(() => {
-    fetch("project-data/aboutMeHp.json")
+    fetch("https://res.cloudinary.com/dheko2ynz/raw/upload/v1688845758/project-data/aboutMeHp_o44ffv.json")
       .then((response) => response.json())
       .then((data) => setAboutMeHp(data));
   }, []);
