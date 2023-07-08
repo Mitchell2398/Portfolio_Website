@@ -7,7 +7,10 @@ export default defineConfig(({ command }) => {
   const config = {
     base: "/Portfolio_Website",
     plugins: [react()],
- 
+    esbuild: {
+      jsxFactory: 'React.createElement',
+      jsxFragment: 'React.Fragment',
+    }
   }
 
 
