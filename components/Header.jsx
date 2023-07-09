@@ -150,7 +150,7 @@ export default function Header() {
           </li>
 
           <SmoothLink
-            to="contact"
+            to="connect"
             className="SmoothLink"
             smooth={true}
             duration={500}
@@ -158,7 +158,7 @@ export default function Header() {
             activeClass="active"
             style={{ color: headerColour ? "white" : "black" }}
           >
-            Contact
+            Connect
           </SmoothLink>
         </ul>
       ) : (

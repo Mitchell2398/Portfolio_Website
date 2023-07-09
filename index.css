@@ -394,6 +394,10 @@ img.doodle {
     justify-content: center;
   }
 
+  .aboutMeContainer{
+    margin: 50px 0px;
+  }
+
   .aboutMeTextWrapper {
     align-items: center;
     justify-content: center;
