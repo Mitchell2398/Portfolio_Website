@@ -15,6 +15,7 @@ export default function Hero() {
               <h1 className="heroH1">Jack Mitchell</h1>
             ) : (
               <Typewriter
+              className="heroH1"
                 options={{
                   strings: [
                     "Jack Mitchell.",
@@ -39,9 +40,9 @@ export default function Hero() {
             offset={15}
             activeClass="active"
           >
-            <a type="button" className="btn">
+            <div type="button" className="btn">
               About me
-            </a>
+            </div>
           </SmoothLink>
         </div>
         <div className="socials">

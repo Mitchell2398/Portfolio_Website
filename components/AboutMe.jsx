@@ -9,7 +9,11 @@ export default function AboutMe(props) {
 
           <div className="aboutMeTextWrapper">
             <h1 className="aboutMeTitle">About me.</h1>
-            <p className="aboutMeText">{props.aboutMe}</p>
+            <div className="aboutMeText">
+            <p>{props.aboutMe.introduction}</p>
+            <p>{props.aboutMe.drive}</p>
+            <p>{props.aboutMe.dedication}</p>
+            </div>
           </div>
         </div>
 

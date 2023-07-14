@@ -17,6 +17,9 @@ export default function SideMenu (props) {
 
   return (
     <div className={`sideMenuContainer ${props.isSideMenuClicked ? "active" : ""}`}>
+      <div className="sideMenuIcon"></div>
+          <div onClick={props.handleClick} className="sideMenuX">X</div>
+        
     <ul className="sideMenuUl">
     <li>
       <SmoothLink

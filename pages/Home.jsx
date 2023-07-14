@@ -14,7 +14,7 @@ export default function Home() {
       .then((response) => response.json())
       .then((data) => setProjectData(data));
 
-      fetch("https://res.cloudinary.com/dheko2ynz/raw/upload/v1688845758/project-data/aboutMeHp_o44ffv.json")
+      fetch("project-data/aboutMeHp.json")
       .then((response) => response.json())
       .then((data) => setAboutMeHp(data));
       
@@ -25,7 +25,7 @@ export default function Home() {
     <div>
       <Header />
       <Hero />
-      <AboutMe aboutMe={aboutMeHp.aboutMe} />
+      <AboutMe aboutMe={aboutMeHp} />
       <Projects projectData={projectData} />
       <Connect />
     </div>
