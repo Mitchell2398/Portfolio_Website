@@ -14,7 +14,7 @@ export default function Home() {
       .then((response) => response.json())
       .then((data) => setProjectData(data));
 
-      fetch("project-data/aboutMeHp.json")
+      fetch("https://res.cloudinary.com/dheko2ynz/raw/upload/v1689348150/aboutMeHp_b6yrip.json")
       .then((response) => response.json())
       .then((data) => setAboutMeHp(data));
       
