@@ -651,9 +651,7 @@ img.doodle {
   right: 0;
   width: 500px; /* Adjust the width as needed */
   height: 100%;
-  max-height: calc(
-    100% - 100px
-  ); /* Subtract the top margin to make space for header */
+
   background-color: #032944;
   display: flex;
   flex-direction: column;
@@ -674,6 +672,7 @@ img.doodle {
 .projectPuContainer.active {
   transform: translateX(0);
   overflow-y: auto;
+  margin: 0px;
 }
 /* When pop up is active disables scrolling on body */
 .disable-scroll {
