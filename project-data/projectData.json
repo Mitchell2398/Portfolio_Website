@@ -2,17 +2,33 @@
 
 [
     
-        {
-            "gridArea": "item-1",
-            "id": 1,
-            "img": "https://firebasestorage.googleapis.com/v0/b/react-chat-app-7171d.appspot.com/o/thumbnail.png?alt=media&token=388d93a6-9850-4742-b4c5-aec4539ef3ff",
-            "title": "Tweetpresso",
-            "subtitle": "Twitter clone with an espresso twist",
-            "fullDescription": "Dive into the world of social networking with Tweetpresso, a full-fledged Twitter clone that harnesses the power of Firebase to create a seamless and engaging user experience. Over the course of two months, I meticulously developed Tweetpresso, a dynamic web application that not only replicates the core functionalities of Twitter but also integrates modern features and scalability.\n\nProject Highlights:\n\n🔥 Firebase-Powered: Leveraging Firebase's authentication, real-time database, and storage services, Tweetpresso offers a secure and dynamic platform for users to express themselves and engage with others.\n\n🚀 Seamless User Experience: Tweetpresso enables users to post tweets accompanied by images, gifs, and emojis, creating an immersive and expressive environment. Users can read, like, and comment on tweets, fostering interactions and connections within the community.\n\n📱 Responsive Design: Built with a mobile-first approach, Tweetpresso ensures a seamless experience across various devices, allowing users to engage on the go and stay connected wherever they are.\n\n📊 Scalability: Engineered to handle up to 50,000 daily read and write operations, Tweetpresso is designed to accommodate growth and engagement, ensuring a smooth experience for users as the platform scales.\n\nTechnologies Used:\n\nFirebase Authentication for secure user identity management.\nFirebase Realtime Database for real-time storage and retrieval of tweets and user interactions.\nFirebase Storage for seamless integration of multimedia content.\nResponsive design principles for optimal performance across devices.\nModern web development best practices, ensuring clean and maintainable code.\n\nEmbark on a journey through the world of social media with Tweetpresso. Experience the thrill of sharing your thoughts, engaging with others, and connecting with a vibrant community. Explore this project, witness its features in action, and discover how Firebase's capabilities seamlessly enhance the user experience.",
-            "tech": ["Html", "Css", "JavaScript", "React", "Firebase"],
-            "liveDemo": "https://react-chat-app-7171d.web.app/",
-            "github": "https://github.com/Mitchell2398/Tweetpresso"
-          }
+    {
+        "gridArea": "item-1",
+        "id": 1,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-chat-app-7171d.appspot.com/o/Tweetpresso.png?alt=media&token=e8aa89a3-6912-4fae-a1b5-feaa88184d06",
+        "title": "Tweetpresso",
+        "subtitle": "Twitter clone with an espresso twist",
+        "fullDescription": "Dive into the world of social networking with Tweetpresso, a full-fledged Twitter clone that harnesses the power of Firebase to create a seamless and engaging user experience. Over the course of two months, I meticulously developed Tweetpresso, a dynamic web application that not only replicates the core functionalities of Twitter but also integrates modern features and scalability.",
+        "tech": ["Html", "Css", "JavaScript", "React", "Firebase"],
+        "liveDemo": "https://react-chat-app-7171d.web.app/",
+        "github": "https://github.com/Mitchell2398/Tweetpresso"
+      },
+
+      {
+        "gridArea": "item-2",
+        "id": 2,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-chat-app-7171d.appspot.com/o/gaelle-marcel-9DZY0mO98xU-unsplash.jpg?alt=media&token=194683b8-c90f-47ef-8153-95431e496afc",
+        "title": "Work in progress",
+        "subtitle": "My next big project",
+        "fullDescription": "Notthing to reveal yet....",
+        "tech": ["Html", "Css", "JavaScript", "React", "Firebase"],
+        "liveDemo": "",
+        "github": ""
+      }
+
+
+
+      
           
             
 

@@ -24,9 +24,9 @@ export default function ProjectPopUp(props) {
           })}
         </div>
         <h2 className="linkTitle">Live Demo</h2>
-        <a className="linkA">{props.liveDemo}</a>
+        <a className="linkA" target="_blank" href={props.liveDemo}>{props.liveDemo}</a>
         <h2 className="linkTitle">Github</h2>
-        <a className="linkA">{props.github}</a>
+        <a className="linkA" target="_blank" href={props.liveDemo}>{props.github}</a>
       </div>
     </div>
   );
