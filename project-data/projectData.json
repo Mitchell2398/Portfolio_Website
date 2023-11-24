@@ -17,7 +17,7 @@
       {
         "gridArea": "item-2",
         "id": 2,
-        "img": "https://firebasestorage.googleapis.com/v0/b/react-chat-app-7171d.appspot.com/o/assets%2Fproject2_tb.png?alt=media&token=cfde72b0-6d1a-43e2-8680-90af0dfd0489",
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-chat-app-7171d.appspot.com/o/assets%2Fproject2_tb.png?alt=media&token=252b3da7-5602-417c-b91e-93c7e3085a8d",
         "title": "SAP assist",
         "subtitle": "AI support bot",
         "fullDescription": "SAP assist is an AI support bot that helps users fill out support tickets. Using the OPENAI API, we developed the chatbot to work using a task system. Each time the bot completes a task it calls a function which moves it onto the next task. The prupose of the bot is to get a much information as possible for the SAP engineer. This project won the 2023 Galway Ideaslab eneterprise challenge. SAP chose our solution as the most suitable and easiest to intergrate.",
