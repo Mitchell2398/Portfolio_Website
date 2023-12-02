@@ -24,6 +24,18 @@
         "tech": ["Html", "Css", "JavaScript", "React", "Tailwind"],
         "liveDemo": "https://sap-bot-2e9c8.web.app/",
         "github": "https://github.com/Mitchell2398/SAP_Chatbot"
+      },
+
+      {
+        "gridArea": "item-3",
+        "id": 3,
+        "img": "https://firebasestorage.googleapis.com/v0/b/react-chat-app-7171d.appspot.com/o/assets%2FDALL%C2%B7E%202023-11-28%2016.48.40%20-%20Create%20a%20friendly%20and%20inviting%20logo%20for%20'CineMate'%2C%20an%20AI%20movie%20selection%20helper.%20The%20logo%20should%20feature%20a%20stylized%20bucket%20of%20popcorn%20with%20a%20cute%20fac.png?alt=media&token=d4e66964-5721-448a-93b2-ac66f986d0fc",
+        "title": "CineMate",
+        "subtitle": "AI Movie Reccomendation",
+        "fullDescription": "CineMate is a movie recommendation application that utilizes embeddings, a vector database, and the OpenAI API to tailor movie suggestions based on user inputs. It processes preferences such as favorite actors, genres, and desired moods to find matching films. First the app turns users preference into a vector embedding, before matching that embedding with a database of movie vectors. Then this is sent to Openai API to create a reccomendation. ",
+        "tech": ["Html", "Css", "JavaScript", "React", "Supabase", "Langchain"],
+        "liveDemo": "https://stately-crostata-a3ae87.netlify.app",
+        "github": "https://github.com/Mitchell2398/cineMate"
       }
 
 
