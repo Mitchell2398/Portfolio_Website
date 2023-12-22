@@ -6,6 +6,7 @@ import Projects from "/components/Projects.jsx";
 import Connect from "/components/Connect.jsx";
 import projectData from "/project-data/projectData.json"
 import aboutMeHp from "/project-data/aboutMeHp.json"
+import Footer from "../components/Footer";
 
 export default function Home() {
 
@@ -18,6 +19,7 @@ export default function Home() {
       <AboutMe aboutMe={aboutMeHp} />
       <Projects projectData={projectData} />
       <Connect />
+      <Footer />
     </div>
   );
 }

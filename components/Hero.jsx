@@ -19,7 +19,7 @@ export default function Hero() {
                 options={{
                   strings: [
                     "Jack Mitchell.",
-                    "Self Taught Coder.",
+                    "Self-Taught Developer.",
                     "Passionate Creator.",
                   ],
                   autoStart: true,
@@ -37,7 +37,7 @@ export default function Hero() {
             to="aboutMe"
             smooth={true}
             duration={500}
-            offset={15}
+            offset={-120}
             activeClass="active"
           >
             <div type="button" className="btn">
