@@ -640,7 +640,7 @@ div:active.btn:after {
   right: 0;
   width: 500px; /* Adjust the width as needed */
   height: 100%;
-  background-color: #032944;
+  background-color: #1b1c29; 
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -648,8 +648,9 @@ div:active.btn:after {
   z-index: 9;
   transform: translateX(100%);
   transition: transform 0.3s;
-  padding: 10px 15px;
+  padding: 5px 15px;
   margin-top: 40px;
+  margin-bottom: 5px;
   animation-name: slideIn;
   animation-duration: 0.3s;
   animation-timing-function: ease-in-out;
