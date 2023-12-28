@@ -4,7 +4,7 @@ export default function Connect () {
     <div className="connectContainer" id="connect">
       <div className="connectWrapper">
         <h1 className="connectTitle">Connect</h1>
-        <p>
+        <p className="connectText">
           Feel free to email me directly at{" "}
           <strong>jackmitchellportfolio@gmail.com</strong><br/>
           or connect with me on my socials

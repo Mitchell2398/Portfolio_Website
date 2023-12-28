@@ -48,7 +48,7 @@ export default function AboutMe() {
           <div className="skillsRow">
           {softSkills.map((skill) => {
             return (
-              <div className="tagAbout" key={skill}>
+              <div className="tagAbout tagGreen" key={skill}>
                 {skill}
               </div>
             );

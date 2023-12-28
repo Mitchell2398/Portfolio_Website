@@ -43,7 +43,7 @@ export default function Projects(props) {
 
   return (
     <div className="projectsWrapper">
-      <h1 className="projectsTitle">Projects.</h1>
+      <h1 className="projectsTitle">Projects</h1>
       <div className="projectsContainer" id="projects">
         {renderProjects}
       </div>

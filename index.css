@@ -391,6 +391,10 @@ div:active.btn:after {
   color: white;
 }
 
+.tagGreen {
+  background: #14a76c;
+}
+
 .aboutMeRight {
   display: flex;
   flex-direction: column;
@@ -426,7 +430,7 @@ div:active.btn:after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 75px 0px;
+  margin: 25px 0px;
   padding: 50px 0;
   background: rgb(192, 192, 192);
   background: radial-gradient(
@@ -636,7 +640,6 @@ div:active.btn:after {
   right: 0;
   width: 500px; /* Adjust the width as needed */
   height: 100%;
-
   background-color: #032944;
   display: flex;
   flex-direction: column;
@@ -646,7 +649,7 @@ div:active.btn:after {
   transform: translateX(100%);
   transition: transform 0.3s;
   padding: 10px 15px;
-  margin-top: 80px;
+  margin-top: 40px;
   animation-name: slideIn;
   animation-duration: 0.3s;
   animation-timing-function: ease-in-out;
@@ -898,6 +901,10 @@ div:active.btn:after {
   justify-content: space-around;
   margin-top: 40px;
   padding-right: 20px;
+}
+
+.connectText {
+  text-align: center;
 }
 /* Media query for smaller screens */
 @media (max-width: 768px) {
